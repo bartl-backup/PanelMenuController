@@ -8,10 +8,6 @@
 
 #import "PanelMenuViewController.h"
 
-@interface PanelMenuViewController ()
-
-@end
-
 @implementation PanelMenuViewController
 {
     UIScrollView *_menuScrollView;
@@ -201,7 +197,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
     

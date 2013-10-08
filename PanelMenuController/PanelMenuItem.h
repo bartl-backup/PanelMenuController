@@ -15,5 +15,4 @@
 @property (nonatomic) int index;
 @property (nonatomic,weak) PanelMenuViewController *menuController;
 
-
 @end
