@@ -98,7 +98,7 @@
     _menuScrollView = [[UIScrollView alloc] initWithFrame:[self menuBarRect]];
     _menuScrollView.autoresizingMask = [self menuBarAutoResizing];
     _menuScrollView.contentSize = CGSizeMake(self.view.bounds.size.width, self.panelSize);
-    _menuScrollView.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
+    _menuScrollView.backgroundColor = [UIColor clearColor];
     
     [self.view addSubview:_menuScrollView];
 }
@@ -197,8 +197,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
     
     [self loadController];
 }
